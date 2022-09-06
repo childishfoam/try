@@ -1,7 +1,7 @@
 from tkinter import *
 def ini():
       Lstbox1.delete(0,END)
-      list_items = ["数学","物理","化学","语文","外语"]
+      list_items = ["数据一","数据二","化学","语文","外语"]
       for item in list_items:
            Lstbox1.insert(END,item)
 
